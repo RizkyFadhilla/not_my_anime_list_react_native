@@ -1,0 +1,141 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "username": "user 1",
+      "email": "1@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "phoneNumber": "0983024809",
+      "Address": "jakarta"
+    },
+    {
+      "id": 2,
+      "username": "user 2",
+      "email": "2@gmail.com",
+      "password": "123",
+      "role": "superAdmin",
+      "phoneNumber": "0983024809",
+      "Address": "jakarta"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Naruto: Shippuuden",
+      "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.",
+      "rating": 8.16,
+      "AuthorId": 2,
+      "GenreId": 1,
+      "MongoDBId":"635a3885c3e073b9da6c99d4",
+      "trailerUrl": "https://www.youtube.com/embed/aLzKjDRoQgA",
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg"
+    },
+    {
+      "id": 2,
+      "title": "One Piece",
+      "synopsis": "Gol D. Roger was known as the 'Pirate King',the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.",
+      "rating": 8.54,
+      "AuthorId": 2,
+      "GenreId": 2,
+      "MongoDBId":"635a3885c3e073b9da6c99d4",
+      "trailerUrl": "https://www.youtube.com/embed/89JWRYEIG-s",
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/6/73245.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Attack on Titan",
+      "synopsis": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.",
+      "rating": 8.50,
+      "AuthorId": 2,
+      "GenreId": 1,
+      "MongoDBId":"635a3885c3e073b9da6c99d4",
+      "trailerUrl": "https://www.youtube.com/embed/MGRm4IzK1SQ",
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Chainsaw Man",
+      "synopsis": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash. Unfortunately, he has outlived his usefulness and is murdered by a devil in contract with the yakuza. However, in an unexpected turn of events, Pochita merges with Denji's dead body and grants him the powers of a chainsaw devil. Now able to transform parts of his body into chainsaws, a revived Denji uses his new abilities to quickly and brutally dispatch his enemies. Catching the eye of the official devil hunters who arrive at the scene, he is offered work at the Public Safety Bureau as one of them. Now with the means to face even the toughest of enemies, Denji will stop at nothing to achieve his simple teenage dreams.",
+      "rating": 8.97,
+      "AuthorId": 2,
+      "GenreId": 2,
+      "MongoDBId":"635a3885c3e073b9da6c99d4",
+      "trailerUrl": "https://www.youtube.com/embed/q15CRdE5Bv0",
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Death Note",
+      "synopsis": "Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging gambling den. The ingenious 17-year-old Japanese student Light Yagami and sadistic god of death Ryuk share one belief: their worlds are rotten.For his own amusement, Ryuk drops his 'Death Note' into the human world. Light stumbles upon it, deeming the first of its rules ridiculous: the human whose name is written in this note shall die. However, the temptation is too great, and Light experiments by writing a felon's name, which disturbingly enacts his first murder. Aware of the terrifying godlike power that has fallen into his hands, Light—under the alias 'Kira'—follows his wicked sense of justice with the ultimate goal of cleansing the world of all evil-doers. The meticulous mastermind detective L is already on his trail, but as Light's brilliance rivals L's, the grand chase for Kira turns into an intense battle of wits that can only end when one of them is dead.",
+      "rating": 8.62,
+      "AuthorId": 2,
+      "GenreId": 2,
+      "MongoDBId":"635a3885c3e073b9da6c99d4",
+      "trailerUrl": "https://www.youtube.com/embed/R9HbosAvV2M",
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/9/9453.jpg"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "action"
+    },
+    {
+      "id": 2,
+      "name": "adventure"
+    },
+    {
+      "id": 3,
+      "name": "fantasy"
+    },
+    {
+      "id": 4,
+      "name": "drama"
+    }
+  ],
+  "cast": [
+    {
+      "id": 1,
+      "MovieId": 1,
+      "name": "naruto uzumaki",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/2/284121.jpg"
+    },
+    {
+      "id": 2,
+      "MovieId": 2,
+      "name": "Luffy 'Mugiwara, Straw Hat, Lucy, Luffytaro' Monkey D",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/9/310307.jpg"
+    },
+    {
+      "id": 3,
+      "MovieId": 3,
+      "name": "Eren Yeager",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/10/216895.jpg"
+    },
+    {
+      "id": 4,
+      "MovieId": 4,
+      "name": "Makima",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/4/489561.jpg"
+    },
+    {
+      "id": 5,
+      "MovieId": 5,
+      "name": "L 'Ryuga Hideki, Ryuzaki, Eraldo Coil, Deneuve' Lawliet",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/10/249647.jpg"
+    },
+    {
+      "id": 6,
+      "MovieId": 1,
+      "name": "Kakashi 'The Copy Ninja' Hatake",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/7/284129.jpg"
+    },
+    {
+      "id": 7,
+      "MovieId": 1,
+      "name": "Sasuke Uchiha",
+      "profilePict": "https://cdn.myanimelist.net/images/characters/9/131317.jpg"
+    }
+  ]
+}

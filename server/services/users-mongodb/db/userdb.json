@@ -1,0 +1,18 @@
+[
+  {
+    "username": "user 1",
+    "email": "1@gmail.com",
+    "password": "123",
+    "role": "admin",
+    "phoneNumber": "0983024809",
+    "Address": "jakarta"
+  },
+  {
+    "username": "user 2",
+    "email": "2@gmail.com",
+    "password": "123",
+    "role": "superAdmin",
+    "phoneNumber": "0983024809",
+    "Address": "jakarta"
+  }
+]
